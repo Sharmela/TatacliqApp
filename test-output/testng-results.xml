@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="10" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Test class successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[Test class successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[Test class successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[Test class successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[Test class successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[Test class successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[Test class successfully executed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="575862" started-at="2018-06-26T08:25:54Z" finished-at="2018-06-26T08:35:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="575862" started-at="2018-06-26T08:25:54Z" finished-at="2018-06-26T08:35:30Z">
+      <class name="TestClass.TrackProduct">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:TestClass.TrackProduct@4501b7af]" name="openapp" is-config="true" duration-ms="31057" started-at="2018-06-26T13:55:54Z" finished-at="2018-06-26T13:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="trackingProduct()[pri:0, instance:TestClass.TrackProduct@4501b7af]" name="trackingProduct" duration-ms="23174" started-at="2018-06-26T13:56:25Z" finished-at="2018-06-26T13:56:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test class successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- trackingProduct -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestClass.TrackProduct@4501b7af]" name="closeapp" is-config="true" duration-ms="2349" started-at="2018-06-26T13:56:49Z" finished-at="2018-06-26T13:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- TestClass.TrackProduct -->
+      <class name="TestClass.AddToCart">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:TestClass.AddToCart@523884b2]" name="openapp" is-config="true" duration-ms="16530" started-at="2018-06-26T14:00:10Z" finished-at="2018-06-26T14:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:TestClass.AddToCart@523884b2]" name="addToCart" duration-ms="21959" started-at="2018-06-26T14:00:26Z" finished-at="2018-06-26T14:00:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test class successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestClass.AddToCart@523884b2]" name="closeapp" is-config="true" duration-ms="2768" started-at="2018-06-26T14:00:48Z" finished-at="2018-06-26T14:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- TestClass.AddToCart -->
+      <class name="TestClass.SearchProduct">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:TestClass.SearchProduct@5b275dab]" name="openapp" is-config="true" duration-ms="15801" started-at="2018-06-26T13:56:51Z" finished-at="2018-06-26T13:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="searchForProduct()[pri:0, instance:TestClass.SearchProduct@5b275dab]" name="searchForProduct" duration-ms="47921" started-at="2018-06-26T13:57:07Z" finished-at="2018-06-26T13:57:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test class successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchForProduct -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestClass.SearchProduct@5b275dab]" name="closeapp" is-config="true" duration-ms="5985" started-at="2018-06-26T13:57:55Z" finished-at="2018-06-26T13:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- TestClass.SearchProduct -->
+      <class name="TestClass.RemoveProduct">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:TestClass.RemoveProduct@61832929]" name="openapp" is-config="true" duration-ms="17434" started-at="2018-06-26T13:58:01Z" finished-at="2018-06-26T13:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="removeProductFromCart()[pri:0, instance:TestClass.RemoveProduct@61832929]" name="removeProductFromCart" duration-ms="20560" started-at="2018-06-26T13:58:18Z" finished-at="2018-06-26T13:58:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test class successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestClass.RemoveProduct@61832929]" name="closeapp" is-config="true" duration-ms="2476" started-at="2018-06-26T13:58:39Z" finished-at="2018-06-26T13:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- TestClass.RemoveProduct -->
+      <class name="TestClass.CheckProduct">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:TestClass.CheckProduct@5e5792a0]" name="openapp" is-config="true" duration-ms="115284" started-at="2018-06-26T14:02:20Z" finished-at="2018-06-26T14:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="checkingForProduct()[pri:0, instance:TestClass.CheckProduct@5e5792a0]" name="checkingForProduct" duration-ms="28902" started-at="2018-06-26T14:04:15Z" finished-at="2018-06-26T14:04:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test class successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkingForProduct -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestClass.CheckProduct@5e5792a0]" name="closeapp" is-config="true" duration-ms="2168" started-at="2018-06-26T14:04:44Z" finished-at="2018-06-26T14:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- TestClass.CheckProduct -->
+      <class name="TestClass.CustomerService">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:TestClass.CustomerService@26653222]" name="openapp" is-config="true" duration-ms="16260" started-at="2018-06-26T14:04:46Z" finished-at="2018-06-26T14:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="customerServiceDetails()[pri:0, instance:TestClass.CustomerService@26653222]" name="customerServiceDetails" duration-ms="25053" started-at="2018-06-26T14:05:02Z" finished-at="2018-06-26T14:05:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test class successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerServiceDetails -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestClass.CustomerService@26653222]" name="closeapp" is-config="true" duration-ms="2909" started-at="2018-06-26T14:05:27Z" finished-at="2018-06-26T14:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- TestClass.CustomerService -->
+      <class name="TestClass.GiftCard">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:TestClass.GiftCard@29774679]" name="openapp" is-config="true" duration-ms="16655" started-at="2018-06-26T14:00:51Z" finished-at="2018-06-26T14:01:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="FAIL" signature="giftCardActions()[pri:0, instance:TestClass.GiftCard@29774679]" name="giftCardActions" duration-ms="5297" started-at="2018-06-26T14:01:07Z" finished-at="2018-06-26T14:01:13Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[.='Sign In / Sign Up']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'HP', ip: '192.168.43.249', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10132, moz:profile: C:\Users\user\AppData\Local..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ba690bb1-637e-4c08-8194-31c713f71ab6
+*** Element info: {Using=xpath, value=//a[.='Sign In / Sign Up']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[.='Sign In / Sign Up']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'HP', ip: '192.168.43.249', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10132, moz:profile: C:\Users\user\AppData\Local..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ba690bb1-637e-4c08-8194-31c713f71ab6
+*** Element info: {Using=xpath, value=//a[.='Sign In / Sign Up']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at PageClass.LoginToApp.signinBtn(LoginToApp.java:32)
+	at TestClass.GiftCard.giftCardActions(GiftCard.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCardActions -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestClass.GiftCard@29774679]" name="closeapp" is-config="true" duration-ms="3564" started-at="2018-06-26T14:01:13Z" finished-at="2018-06-26T14:01:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- TestClass.GiftCard -->
+      <class name="TestClass.MywishList">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:TestClass.MywishList@3ffc5af1]" name="openapp" is-config="true" duration-ms="17024" started-at="2018-06-26T14:01:16Z" finished-at="2018-06-26T14:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="addToMyWishlist()[pri:0, instance:TestClass.MywishList@3ffc5af1]" name="addToMyWishlist" duration-ms="42928" started-at="2018-06-26T14:01:33Z" finished-at="2018-06-26T14:02:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test class successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToMyWishlist -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestClass.MywishList@3ffc5af1]" name="closeapp" is-config="true" duration-ms="3384" started-at="2018-06-26T14:02:16Z" finished-at="2018-06-26T14:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- TestClass.MywishList -->
+      <class name="TestClass.SelectProduct">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:TestClass.SelectProduct@3532ec19]" name="openapp" is-config="true" duration-ms="15375" started-at="2018-06-26T13:58:41Z" finished-at="2018-06-26T13:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="selectTheProduct()[pri:0, instance:TestClass.SelectProduct@3532ec19]" name="selectTheProduct" duration-ms="28794" started-at="2018-06-26T13:58:57Z" finished-at="2018-06-26T13:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTheProduct -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestClass.SelectProduct@3532ec19]" name="closeapp" is-config="true" duration-ms="3199" started-at="2018-06-26T13:59:25Z" finished-at="2018-06-26T13:59:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- TestClass.SelectProduct -->
+      <class name="TestClass.MyPreference">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:TestClass.MyPreference@68c4039c]" name="openapp" is-config="true" duration-ms="16899" started-at="2018-06-26T13:59:29Z" finished-at="2018-06-26T13:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="FAIL" signature="preferencesOfProduct()[pri:0, instance:TestClass.MyPreference@68c4039c]" name="preferencesOfProduct" duration-ms="21185" started-at="2018-06-26T13:59:45Z" finished-at="2018-06-26T14:00:07Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'HP', ip: '192.168.43.249', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'HP', ip: '192.168.43.249', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.BeanToJsonConverter.convertUsingMethod(BeanToJsonConverter.java:195)
+	at org.openqa.selenium.json.BeanToJsonConverter.lambda$new$11(BeanToJsonConverter.java:90)
+	at org.openqa.selenium.json.BeanToJsonConverter.lambda$convertObject$26(BeanToJsonConverter.java:171)
+	at java.util.Optional.map(Unknown Source)
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:171)
+	at org.openqa.selenium.json.BeanToJsonConverter.lambda$null$16(BeanToJsonConverter.java:102)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Iterator.forEachRemaining(Unknown Source)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.openqa.selenium.json.BeanToJsonConverter.lambda$new$18(BeanToJsonConverter.java:103)
+	at org.openqa.selenium.json.BeanToJsonConverter.lambda$convertObject$26(BeanToJsonConverter.java:171)
+	at java.util.Optional.map(Unknown Source)
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:171)
+	at org.openqa.selenium.json.BeanToJsonConverter.lambda$null$19(BeanToJsonConverter.java:109)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+	at org.openqa.selenium.json.BeanToJsonConverter.lambda$new$20(BeanToJsonConverter.java:108)
+	at org.openqa.selenium.json.BeanToJsonConverter.lambda$convertObject$26(BeanToJsonConverter.java:171)
+	at java.util.Optional.map(Unknown Source)
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:171)
+	at org.openqa.selenium.json.BeanToJsonConverter.convert(BeanToJsonConverter.java:139)
+	at org.openqa.selenium.json.Json.toJson(Json.java:48)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:609)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:638)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
+	at PageClass.Preferences.preference(Preferences.java:27)
+	at TestClass.MyPreference.preferencesOfProduct(MyPreference.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.json.BeanToJsonConverter.convertUsingMethod(BeanToJsonConverter.java:191)
+	... 60 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #giftCard_fromName
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'HP', ip: '192.168.43.249', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12692, moz:profile: C:\Users\user\AppData\Local..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c5af7a41-9919-4484-a1c8-8402def2e356
+*** Element info: {Using=id, value=giftCard_fromName}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:154)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+	... 65 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preferencesOfProduct -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestClass.MyPreference@68c4039c]" name="closeapp" is-config="true" duration-ms="2872" started-at="2018-06-26T14:00:07Z" finished-at="2018-06-26T14:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- TestClass.MyPreference -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
